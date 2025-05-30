@@ -1,36 +1,106 @@
 <html>
 <head>
-<title>Patitas Health and Care.com</title>
-<style>
-body{
-background-color:#A1B4DB;
-font-family: Times New Roman, serif;
-border: 5px solid #BFFABA;
-font-size:20px;
-padding: 20px; 
-cursor: pointer; 
-}
-img {
-width:300px;
-height:auto;
-display:block;
-margin-top:10px;
-</style>
+  <title>Patitas Health and Care</title>
+  <style>
+    body {
+      background-color: #A1B4DB;
+      font-family: "Times New Roman", serif;
+      border: 5px solid #BFFABA;
+      font-size: 20px;
+      padding: 20px;
+      cursor: pointer;
+    }
+    img {
+      width: 300px;
+      height: auto;
+      display: block;
+      margin-top: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-<nav class=¨nav−menu¨>
-<ul><li><a href=¨#¨></a>Quienes somos</li>
-<ul><li><a href=¨#¨></a>Comidas</li>
-<h1><em>Patitas Health and Care</em></h1>
-<p>Bienvenido a Patitas Health and Care, donde lo que más nos importa es el bienestar de tu mascota y tu tranquilidad. En Patitas Health and Care, nos especializamos en todo lo que que tú mascota podría querer y necesitar, enfocándonos en el mejor servicio de medicina veterinaria que podemos ofrecer. Y claro brindando también un servicio de spa y hotel.</p>
-<h2><b>Hecha un vistazo a nuestras instalaciones!:</b></h2>
-<a href=https://maps.app.goo.gl/m8K9A7UV5ccshJak7>Ver en google maps</a>
-<img scr=¨https://images.app.goo.gl/kkoDmvXSymuDmiKP7¨ alt=¨Imagen de la veterinaria¨>
-<h3><i>Paquetes de hotel</i></h3>
-<ol><li>Paquete básico: Alimentación básica, +Bolsa de treats y juguete gratis. 1500 la noche </li><li>Paquete burbujas: Alimentación básica, spa y grooming, +bolsa de treats y juguete gratis. 2000 la noche.</li><li>Paquete premium: Alimentación básica y gourmet (carne o vegetales frescos), spa y grooming, +bolsa de treats y juguete gratis.</li></ol>
-<h4><u>Opiniones y reseñas</u></h4>
-<blockquote>Mi perro llegó súper feliz, limpio, bien alimentando y descansado, y muy contento con su juguete nuevo.</blockquote>
-<s>Ningún hotel hacia querido aceptar a mi camaleón hasta que encontré a Patitas Health and Care, y tuvo el mejor cuidado.</s>
-<small>No se cómo, pero lograron salvar a mi hamster, y se los agradeceré por siempre.</small>
+  <nav class="nav-menu">
+    <ul>
+      <li><a href="#">Quiénes somos</a></li>
+      <li><a href="#">Comidas</a></li>
+    </ul>
+  </nav>
+
+  <h1><em>Patitas Health and Care</em></h1>
+
+  <p>
+    Bienvenido a Patitas Health and Care, donde lo que más nos importa es el bienestar de tu mascota y tu tranquilidad. En Patitas Health and Care, nos especializamos en todo lo que tu mascota podría querer y necesitar, enfocándonos en el mejor servicio de medicina veterinaria que podemos ofrecer. Y claro, brindando también un servicio de spa y hotel.
+  </p>
+
+  <h2><strong>¡Echa un vistazo a nuestras instalaciones!</strong></h2>
+  <a href="https://maps.app.goo.gl/m8K9A7UV5ccshJak7" target="_blank">Ver en Google Maps</a>
+  <img src="https://cdn.pixabay.com/photo/2017/08/10/03/35/dog-2619154_960_720.jpg" alt="Perro en baño">
+
+<div id="quienes-somos" class="section">
+    <h2><strong>Quiénes somos</strong></h2>
+    <p>Somos un equipo comprometido con el bienestar de tu mascota. En Patitas Health and Care, brindamos atención personalizada para cada tipo de animal, desde perros y gatos hasta animales exóticos. Nuestra misión es ofrecer los mejores servicios de salud, cuidado y confort para tus mascotas, siempre con cariño y dedicación.</p>
+</div>
+<div id="comidas" class="section">
+    <h2><strong>Comidas para mascotas</strong></h2>
+    <div class="food-item">
+      <img src="https://cdn.pixabay.com/photo/2018/02/01/19/12/dog-food-3125027_960_720.jpg" alt="Comida para perro">
+      <p><strong>Comida para Perro Sabor Pollo</strong></p>
+      <p>Precio: $300</p>
+      <p>Ideal para perros pequeños y medianos, rica en proteínas y nutrientes.</p>
+    </div>
+    <div class="food-item">
+      <img src="https://cdn.pixabay.com/photo/2017/07/11/10/56/cat-food-2491429_960_720.jpg" alt="Comida para gato">
+      <p><strong>Comida para Gato Sabor Salmón</strong></p>
+      <p>Precio: $300</p>
+      <p>Pensada para gatos adultos, rica en Omega 3.</p>
+    </div>
+    <div class="food-item">
+      <img src="https://cdn.pixabay.com/photo/2016/03/09/09/47/hamster-1248537_960_720.jpg" alt="Comida para roedores">
+      <p><strong>Comida para Roedores </strong></p>
+      <p>Precio: $100</p>
+      <p>Alimento balanceado para roedores, con semillas y vegetales frescos.</p>
+    </div>
+    <div class="food-item">
+      <img src="https://cdn.pixabay.com/photo/2017/05/07/00/54/fish-2291576_960_720.jpg" alt="Comida para peces">
+      <p><strong>Comida para Peces Alimento</strong></p>
+      <p>Precio: $150</p>
+      <p>Alimento flotante ideal para peces de agua dulce.</p>
+    </div>
+    <div class="food-item">
+      <img src="https://cdn.pixabay.com/photo/2017/08/10/03/27/dog-2619150_960_720.jpg" alt="Comida para perro gourmet">
+      <p><strong>Comida Gourmet para Perro Sabor Carne</strong></p>
+      <p>Precio: $500</p>
+      <p>Comida premium gourmet, ideal para consentir a tu perro.</p>
+    </div>
+  </div>
+  
+  <h3><i>Paquetes de hotel</i></h3>
+  <ol>
+    <li>Paquete básico: Alimentación básica, bolsa de treats y juguete gratis. 1500 la noche.</li>
+    <li>Paquete burbujas: Alimentación básica, spa y grooming, bolsa de treats y juguete gratis. 2000 la noche.</li>
+    <li>Paquete premium: Alimentación básica y gourmet (carne o vegetales frescos), spa y grooming, bolsa de treats y juguete gratis.</li>
+  </ol>
+
+  <h4><u>Opiniones y reseñas</u></h4>
+  <blockquote>
+    Mi perro llegó súper feliz, limpio, bien alimentado y descansado, y muy contento con su juguete nuevo.
+  </blockquote>
+  <blockquote>
+    Ningún hotel quería aceptar a mi camaleón hasta que encontré a Patitas Health and Care, y tuvo el mejor cuidado.
+  </blockquote>
+  <small>No sé cómo, pero lograron salvar a mi hámster, y se los agradeceré por siempre.</small>
 </body>
-</html>
+    </html>
